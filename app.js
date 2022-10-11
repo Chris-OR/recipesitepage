@@ -42,6 +42,15 @@ app.get("/pita", function(request, response) {
   response.render("pita");
 });
 
-app.listen(3000, function() {
-  console.log("listening on port 3000");
+app.get("/peanut-butter-fudge", function(request, response) {
+  response.render("peanut_butter_fudge");
+});
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 3000;
+}
+
+app.listen(port, function() {
+    console.log("server started successfully");
 });
