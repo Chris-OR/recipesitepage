@@ -46,6 +46,10 @@ app.get("/peanut-butter-fudge", function(request, response) {
   response.render("peanut_butter_fudge");
 });
 
+app.get("/all", function(request, response) {
+  response.render("all");
+});
+
 let port = process.env.PORT;
 if (port == null || port == "") {
     port = 3000;

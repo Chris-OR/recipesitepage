@@ -30,6 +30,14 @@ li a {
   vertical-align: bottom;
 }
 
+li i {
+  color: white;
+}
+
+li i:hover {
+  color: gray;
+}
+
 nav {
   background-color: black;
 
@@ -71,6 +79,10 @@ li a:hover {
   color: black;
 }
 
+.all-recipe-card {
+  width: 70%;
+}
+
 #popular, #new {
   border-right: 1px solid black;
 }
@@ -97,5 +109,42 @@ footer {
 }
 
 .ingredients {
+  text-align: left;
+}
+
+
+
+.title-link {
+  color: black;
+}
+
+.title-link:hover {
+  color: gray;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+
+
+.post-intro {
+    font-size: 0.75rem;
+    margin-left: 1%;
+    display: inline;
+
+}
+
+.home-hr {
+  margin: 2rem 0;
+}
+
+.rounded-image {
+  border-radius: 5%;
+}
+
+.all-recipes {
   text-align: left;
 }
