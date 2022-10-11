@@ -1,0 +1,101 @@
+html, body, h1, p, nav {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+   padding: 0;
+   border: 0;
+   overflow-x: hidden;
+   text-align: center;
+}
+
+container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+container li {
+  display: inline-block;
+  line-height: 50px;
+
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+nav {
+  background-color: black;
+
+}
+
+li.na-link {
+  list-style-type: none;
+}
+
+.hamburger {
+  padding-top: 16px;
+}
+
+a {
+  color: white;
+}
+
+li a:hover {
+  color: grey;
+}
+
+.white-link {
+  color: white;
+}
+
+.home-li-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  padding-left: 14px;
+}
+
+.recipe-card-link {
+  color: black;
+  text-decoration: none;
+}
+
+.recipe-card-link:hover {
+  box-shadow: 2.5px 5px;
+  color: black;
+}
+
+#popular, #new {
+  border-right: 1px solid black;
+}
+
+.recipe-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  background-color: black;
+  height: 66px;
+}
+
+.recipe-img-top {
+  width: 30%;
+}
+.recipe {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.ingredients {
+  text-align: left;
+}
