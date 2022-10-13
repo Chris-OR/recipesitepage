@@ -46,6 +46,14 @@ app.get("/peanut-butter-fudge", function(request, response) {
   response.render("peanut_butter_fudge");
 });
 
+app.get("/belgian-waffles", function(request, response) {
+  response.render("belgian_waffles");
+});
+
+app.get("/pavlova", function(request, response) {
+  response.render("pavlova");
+});
+
 app.get("/all", function(request, response) {
   response.render("all");
 });
