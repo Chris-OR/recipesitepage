@@ -148,3 +148,7 @@ footer {
 .all-recipes {
   text-align: left;
 }
+
+.about {
+  min-height: 100vh;
+}
