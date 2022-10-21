@@ -63,6 +63,10 @@ app.get("/roasted-potatoes", function(request, response) {
   response.render("roasted_potatoes");
 });
 
+app.get("/ramen-stir-fry", function(request, response) {
+  response.render("ramen_stir_fry");
+});
+
 app.get("/all", function(request, response) {
   response.render("all");
 });
