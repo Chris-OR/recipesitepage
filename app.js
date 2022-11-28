@@ -67,6 +67,14 @@ app.get("/ramen-stir-fry", function(request, response) {
   response.render("ramen_stir_fry");
 });
 
+app.get("/biscotti", function(request, response) {
+  response.render("biscotti");
+});
+
+app.get("/chicken-katsu", function(request, response) {
+  response.render("chicken_katsu");
+});
+
 app.get("/all", function(request, response) {
   response.render("all");
 });
